@@ -20,18 +20,19 @@ public class Runner {
         Appointment a9 = new Appointment(t4);
         Appointment a10 = new Appointment(t5);
 
-        DailySchedule ds1 = new DailySchedule();
+        DailySchedule d = new DailySchedule();
 
-        ds1.addAppt(a1,false);
-        ds1.addAppt(a2,false);
-        ds1.addAppt(a3,false);
-        ds1.addAppt(a4,false);
-        ds1.addAppt(a5,false);
-        ds1.addAppt(a6,false);
-        ds1.addAppt(a7,false);
-        ds1.addAppt(a8,false);
-        ds1.addAppt(a9,false);
-        ds1.addAppt(a10,false);
+        d.addAppt(a1,false);
+        d.addAppt(a2,false);
+        d.addAppt(a3,false);
+        d.addAppt(a4,false);
+        d.addAppt(a5,false);
+        d.addAppt(a6,false);
+        d.addAppt(a7,false);
+        d.addAppt(a8,false);
+        d.addAppt(a9,false);
+        d.addAppt(a10,false);
 
+        System.out.println(d.disp());
     }
 }

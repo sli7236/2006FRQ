@@ -29,4 +29,14 @@ public class DailySchedule {
         apptList.add(appt);
         return true;
     }
+
+    public String disp()
+    {
+        String str = "";
+        for (int i = 0; i < apptList.size(); i++)
+        {
+            str += apptList.get(i).interval.start + " " + apptList.get(i).interval.end +  "\n";
+        }
+        return str;
+    }
 }
